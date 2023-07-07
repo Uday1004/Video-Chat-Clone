@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>VChat-Clone</title>
+    <link  rel = "icon" href ='/group-video-chat/images/Title-icon.png' type = "image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+     
+    <button class="button" id="join-btn"><span>Join Now!</span></button>
+
+    <div id="stream-wrapper">
+        <div id="video-streams"></div>
+
+    </div>
+        <div id="stream-controls" >
+            <button class="func-btn func-btn2" style="border-radius: 5px;"  id="leave-btn">Leave Stream</button>
+            <button class="func-btn" style="border-radius: 5px;" id="mic-btn">Mic On</button>
+            <button class="func-btn" style="border-radius: 5px;" id="camera-btn">Camera on</button>
+        </div>
+    
+</body>
+<!-- <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script> -->
+<script src="AgoraRTC_N-4.7.3.js"></script>
+<script src='main.js'></script>
+</html>

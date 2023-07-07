@@ -1,0 +1,123 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(17, 33, 114, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(to right, #2C5364, #497e90, #1e8cbb);
+    /* background-color: linear-gradient(to right, #5b7e8e, #478548, #0F2027); */
+
+
+
+
+
+}
+
+
+#join-btn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#video-streams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    height: 90vh;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.video-container {
+    max-height: 100%;
+    border: 2px solid black;
+    /* background-color: #658598; */
+}
+
+.video-player {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    font-family: 'FontAwesome';
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    font-weight: 900;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.button:hover {
+    background-color: #1aa1caf1;
+    border: transparent;
+
+}
+
+#stream-controls {
+    display: none;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+@media screen and (max-width:1400px) {
+    #video-streams {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 95%;
+    }
+}
+
+#leave-btn:hover {
+    background-color: #EE4B2B;
+
+}
+
+.func-btn {
+    height: 42px;
+    width: 144px;
+    margin: 4px;
+    background-color: #50C878;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.func-btn2 {
+    background-color: #918a8a;
+}
