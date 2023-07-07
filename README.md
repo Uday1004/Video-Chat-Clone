@@ -13,6 +13,6 @@ Simple group video chat app built using plain HTML, CSS, JavaScript and the Agor
 
 * 5 - Remember this id running on test so it is remove in 24 hrs
 
-*6 - for contect , email : udaysolanki530@gmail.com , linkdin: https://www.linkedin.com/in/uday-solanki-a62967277/
+* 6 - for contect , email : udaysolanki530@gmail.com , linkdin: https://www.linkedin.com/in/uday-solanki-a62967277/
 
   
